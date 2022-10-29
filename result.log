@@ -1,0 +1,37 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-7.1.3, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/vladimir/Документы/avito/python/aaa_python_final_project
+plugins: anyio-3.3.2, cov-4.0.0
+collecting ... collected 13 items
+
+test_pizza.py::test_pizza_str[Pepperoni-Pepperoni \U0001f355: tomato sauce, mozzarella, pepperoni] PASSED
+test_pizza.py::test_pizza_str[Margherita-Margherita \U0001f9c0: tomato sauce, mozzarella, tomatoes] PASSED
+test_pizza.py::test_pizza_str[Hawaiian-Hawaiian \U0001f34d: tomato sauce, mozzarella, chicken, pineapples] PASSED
+test_pizza.py::test_pizza_dict[Pepperoni-result0] PASSED
+test_pizza.py::test_pizza_dict[Margherita-result1] PASSED
+test_pizza.py::test_pizza_dict[Hawaiian-result2] PASSED
+test_pizza.py::test_pizza_eq PASSED
+test_pizza.py::test_wrong_size PASSED
+test_pizza.py::test_cli_menu PASSED
+test_pizza.py::test_cli_order[arguments0-\U0001f468\u200d\U0001f373 \u041f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u0438\u043b\u0438 \u0437\u0430 {}\u0441!\n\U0001f3e0 \u0417\u0430\u0431\u0430\u0440\u0430\u043b\u0438 \u0437\u0430 {}\u0441!\n] 👨‍🍳 Приготовили за 10с!
+🏠 Забарали за 9с!
+
+PASSED
+test_pizza.py::test_cli_order[arguments1-\U0001f468\u200d\U0001f373 \u041f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u0438\u043b\u0438 \u0437\u0430 {}\u0441!\n\U0001f3e0 \u0417\u0430\u0431\u0430\u0440\u0430\u043b\u0438 \u0437\u0430 {}\u0441!\n] 👨‍🍳 Приготовили за 4с!
+🏠 Забарали за 8с!
+
+PASSED
+test_pizza.py::test_cli_order[arguments2-\U0001f468\u200d\U0001f373 \u041f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u0438\u043b\u0438 \u0437\u0430 {}\u0441!\n\U0001f6f5 \u0414\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0437\u0430 {}\u0441!\n] 👨‍🍳 Приготовили за 2с!
+🛵 Доставили за 1с!
+
+PASSED
+test_pizza.py::test_cli_order[arguments3-\u0422\u0430\u043a\u043e\u0439 \u043f\u0438\u0446\u0446\u044b \u043d\u0435\u0442 :(\n] Такой пиццы нет :(
+
+PASSED
+
+---------- coverage: platform linux, python 3.8.10-final-0 -----------
+Coverage HTML written to dir htmlcov
+
+
+============================== 13 passed in 0.10s ==============================
